@@ -5,7 +5,10 @@
 """
 import pymongo
 
-from ftrack_events_helper.config import DB_CONFIG
+DB_CONFIG = {
+    'host': '127.0.0.1',
+    'port': 27017
+}
 
 
 class Mongo(object):
